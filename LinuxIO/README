@@ -1,1 +1,8 @@
-Linux & IO team please place your README here
+Linux & IO group (Group 2)
+
+
+Linux booting simply run demo.sh.
+The whole file is already made.
+Our demo will boot linux on riscv with spike
+and show a message to present we're using our 
+own IO ports.
