@@ -1,0 +1,15 @@
+#include "armv7a_L1_cache.h"
+int main()
+{
+
+	armv7a_L1_cache* dcache=new armv7a_L1_cache( 0, true);
+	
+	// cmd data addr size
+	//cmd =0 read cmd=1 write cmd=2 invalid
+	dcache->run(0,123,0x104,4);
+	dcache->run(1,123,0x204,4);
+	//dcache->run(1,123,0x212,4);
+	//dcache->run(1,456,0x212,4);
+	//dcache->run(0,123,0x3ff,4);
+	//dcache->run(2,123,0x208,4);
+}
