@@ -12,7 +12,7 @@ reset value by commands below:
 	export PATH=$RISCV/bin:$PATH
 
 3.get into riscv-isa-sim,then do command in turns :
-	"./configure"
+	"./configure --prefix=$RISCV --with-fesvr=$RISCV"
 	"make"
 	"make install"
 
