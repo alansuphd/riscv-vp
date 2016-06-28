@@ -1,1 +1,19 @@
 Spike team please place your README here
+
+6/28
+all in terminal below:
+
+1.to create a new spike, move folder "toolcahin" and "riscv-isa-sim"
+to new destination.
+
+2.change value of RISCV because path of toolchain is changed.
+reset value by commands below:
+	export RISCV=path to toolchain
+	export PATH=$RISCV/bin:$PATH
+
+3.get into riscv-isa-sim,then do command in turns :
+	"./configure"
+	"make"
+	"make install"
+
+then you'll have a new spike in riscv-isa-sim
